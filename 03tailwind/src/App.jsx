@@ -10,6 +10,7 @@ function App() {
         Hi, Good Morning
       </h1>
 
+      
       <div className="md:max-w-sm w-full p-6 rounded-xl shadow-xl bg-black border border-zinc-800 hover:border-white transition-all duration-300 hover:transform hover:scale-105 group">
 
         <div className="relative overflow-hidden rounded-lg mb-6">
@@ -71,13 +72,13 @@ function App() {
 
       </div>
 
-      <h1>Chai aur React {count}</h1>
+      
 
       <button onClick={() => setCount(count + 1)}>
         Count: {count}
       </button>
 
-      <p>Test para</p>
+      
     </>
   )
 }
